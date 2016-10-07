@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">EscrowTransactReal</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_login_escrow">LoginEscrow</string>
+    <string name="title_activity_transaction_list">escrow</string>
+    <string name="title_activity_transaction_info">TransactionInfo</string>
 </resources>

@@ -9,22 +9,14 @@ import android.view.ViewGroup;
 /**
  * A placeholder fragment containing a simple view.
  */
-public class MainActivityFragment extends Fragment {
+public class TransactionListFragment extends Fragment {
 
-    public MainActivityFragment() {
+    public TransactionListFragment() {
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
-        //set credentials
-        String usernameGmail = "jaimeema20@gmail.com";
-        String passwordGmail = "Freelancer1";
-
-
-
-
-        return inflater.inflate(R.layout.fragment_main, container, false);
+        return inflater.inflate(R.layout.fragment_transaction_list, container, false);
     }
 }
